@@ -26,7 +26,6 @@ body {
   }
   
   .move-button {
-    /* background-color: transparent; */
     background-color: rgb(18, 86, 98);
     border: 1px solid white;
     width: 120px;
@@ -52,7 +51,6 @@ body {
     padding: auto;
     display: flex;
     justify-content:space-evenly;
-    /* background-color: rgb(132, 227, 244); */
   }
   
   .reset-score-button
@@ -73,7 +71,6 @@ body {
   }
 
   .you-computer{
-    /* border:3px solid red; */
     display:flex;
     justify-content: space-evenly;
     column-gap: 20px;
@@ -81,7 +78,6 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: turquoise;
-    /* padding:20px; */
   }
   .useroptions{
     display: flex;
