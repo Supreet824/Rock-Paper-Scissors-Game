@@ -1,0 +1,90 @@
+body {
+    background-color: grey;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .title {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(64, 200, 224);
+    margin-bottom: 5rem;
+  }
+  
+  .move-icon {
+    height: 50px;
+    margin-right: 2rem;
+  }
+  .circle-icon{
+    height: 50px;
+  }
+  
+  .move-button {
+    /* background-color: transparent; */
+    background-color: rgb(18, 86, 98);
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  .score {
+    margin-top: 60px;
+    width: 30rem;
+    border:2px solid rgb(64, 200, 224);
+    color: rgb(18, 86, 98);
+    font-size:30px;
+    font-weight: bold;
+    padding: auto;
+    display: flex;
+    justify-content:space-evenly;
+    /* background-color: rgb(132, 227, 244); */
+  }
+  
+  .reset-score-button
+  {
+    background-color:white;
+    color: red;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size:15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 5px #888888;
+  }
+  .resultandbuttoncontainer{
+    text-align: center;
+  }
+
+  .you-computer{
+    /* border:3px solid red; */
+    display:flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    align-items:center ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: turquoise;
+    /* padding:20px; */
+  }
+  .useroptions{
+    display: flex;
+    justify-content: center;
+  }
+ 
